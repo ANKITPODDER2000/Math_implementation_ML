@@ -5,11 +5,11 @@ Or , machine learning is extract knowledge from training data and predict for un
 
 Tools for machine Learning:
 ******************************************************************************************************************************
->>Scikit-learn (sklearn)
+  >>Scikit-learn (sklearn)
 
->>Tensorflow
+  >>Tensorflow
 
->>Turi
+  >>Turi
 
 But Each & Every algrorithm is nothing but a mathematical implementation of basic rules.
 
