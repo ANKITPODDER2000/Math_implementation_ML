@@ -26,7 +26,9 @@ Types of Machine learning Algorithm:
 Necessary tools for implementation in python :
 ******************************************************************************************************************************
 >>Numpy
+
   >>Important numpy methods :
+  
     >>np.exp()
     
     >>np.log()
@@ -36,10 +38,14 @@ Necessary tools for implementation in python :
     >>a.T
     
 >>Pandas
+
   >>Important Pandas method:
+  
     >>pd.read_csv(path)
 >>Matplotlib
+
   >>Important Matplotlib method
+  
     >>plt.plot()
     
     >>plt.figure(row,column)
