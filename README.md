@@ -72,14 +72,24 @@ variable (often called the 'outcome variable')and one or more independent variab
 
 >>
   >>>>h(x) = (theta.T . X) + b  where theta is the coefficient and b is the intercept.
-  >>>>To meansure the efficency of an algorithm we need an error function or cost function.There is different type of Error function:
-      >>MAE(mean absolute error):
-        MAE = (1 / m) * |h(x) - y|
-      >>MSE(mean squared error):
-        MSE = (1 / 2*m) * (h(x)-y)^2
-      >>RMSE(root mean squared error):
-        RMSE = ((1 / m)* (h(x)-y)^2 )^(1/2)
-      >>binary_crossentropy(For classification)
-      >>categorical_crossentropy(For classification)
-      >>sparse_categorical_crossentropy(For classification)
-  >>>>**Cost function** : (1 / 2*m) * (h(x)-y)^2
+  >>To meansure the efficency of an algorithm we need an error function or cost function.There is different type of Error function:
+    
+    >>MAE(mean absolute error):
+      
+      MAE = (1 / m) * |h(x) - y|
+    
+    >>MSE(mean squared error):
+     
+     MSE = (1 / 2*m) * (h(x)-y)^2
+   
+   >>RMSE(root mean squared error):
+     
+     RMSE = ((1 / m)* (h(x)-y)^2 )^(1/2)
+   
+   >>binary_crossentropy(For classification)
+    
+    >>categorical_crossentropy(For classification)
+   
+   >>sparse_categorical_crossentropy(For classification)
+  
+  >>**Cost function** : (1 / 2*m) * (h(x)-y)^2
